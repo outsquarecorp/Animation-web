@@ -1,0 +1,20 @@
+body {
+  background: #111;
+  overflow: hidden;
+}
+
+canvas {
+  animation: spin 5000ms linear infinite;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
