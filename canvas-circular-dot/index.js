@@ -1,6 +1,6 @@
 var canvas = document.createElement( 'canvas' ),
     ctx = canvas.getContext( '2d' ),
-    size = 200,
+    size = 300,
     padding = size * 0.1,
     size1_3 = size / 3,
     size2_3 = size1_3 * 2,
@@ -30,7 +30,7 @@ var canvas = document.createElement( 'canvas' ),
       }
     ],
     lineColor = '#333';
-    pointColor = '#fff';
+    pointColor = '#212120';
 
 function loop() {
   requestAnimationFrame( loop );
