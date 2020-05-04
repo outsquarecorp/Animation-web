@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background: white;
+  background: black;
   overflow: hidden;
 }
 
@@ -29,9 +29,6 @@ body {
   height: 2px;
   border-radius: 50%;
   opacity: 0;
-}
-#dot {
-  background-color: #212120;
 }
 
 .c:nth-child(1) {
